@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Welcom</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<script>
+var orientationChangeEv = function(){
+  var winW = window.innerWidth, w, fontSize;
+  //保证window内部的宽度在320-640之间，最小为320，最大为640
+  w = (winW <= 750) ? 1000 : ((winW >= 1366) ? 1366 : winW);
+  //根据窗口的大调整字体的大小
+  fontSize = 10 * (w / 750); 
+  document.documentElement.style.fontSize = fontSize + 'px';
+};
+//绑定window的resize事件
+window.addEventListener('resize',orientationChangeEv);
+//初始时，执行一次
+setTimeout(orientationChangeEv, 0);
+</script>
+	<header>
+		<div id="top">
+			<ul>
+				<li><a href=""><img class="visible"src="images/mail.png"/><img class="hidden"src="images/mail_hid.png"/></a></li>
+				<li><a href="https://fr-fr.facebook.com/welcom.evry"><img class="visible" src="images/facebook_black.png"/><img class="hidden"src="images/facebook_hid.png"/></a></li>
+				<li><a href=""><img class="visible" src="images/twitter.png"/><img class="hidden"src="images/twitter_hid.png"/></a></li>
+				<li><a href="https://www.youtube.com/user/TelecomEM"><img class="visible" src="images/youtube.png"/><img class="hidden"src="images/youtube_hid.png"/></a></li>
+			</ul>
+		</div>
+		
+		<div id="soustop">
+			<div id="banniere">
+				<a href="./index.html"><img src="images/banner_welcom'.png"/></a>
+			</div>
+			
+			<nav class="mainmenu">
+			<ul>
+				<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+			</ul>
+			</nav>
+			<nav class="smallmenu">
+			<li>
+				<a herf="#"><img src="images/menu.png"/></a>
+				<ul>
+					<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+				</ul>
+			</li>
+			</nav>
+		</div>
+	</header>
+
+<body>
+	<div id="mainpage">
+    <div id="leftmenu">
+            <div id="leftmenu_contenu">
+               <h2><a href="">LIVING IN FRANCE</a></h1>
+                  <div class="left">
+                       <ul>
+                            <li><a href="#culture">Cultural information</a></li>
+                            <li><a href="#evry" >Évry and nearby</a></li>
+                            <li><a href="#paris">Visit Paris per District</a></li>
+                        </ul>
+                  </div>
+            </div>
+    </div>
+	<article class = "a1">
+	<h1 id="culture">Cultural information</h1>
+	<h2>Les climats</h2>
+	<p>The North-East of France is damps thanks to the Atlantic Ocean e.g.: Cherbourg (winter: 8° C and summer: 20°C)</br>
+	The North-West of France is very cold during winter and quite warm e.g.: Briançon (winter: 3°C and summer: 25°C)</br>
+	The South of France is very warm all the time and very hot during summer with a little wind, e.g.: Nice (winter: 12°C and summer: 28°C)</br>
+	The last, but not least, Paris, the capital: winter: 5°C and summer: 25°C</br>
+	</p>
+	<h2>Religions</h2>
+	<p>Firstly, 55 % of French people consider themselves as Catholic but in reality, only 10% practice regularly and go to church.</br>
+	Then, the majority of Protestants are in Alsace (North-East), in the Jura (Middle-East), in the Massif Central (South-East) and in the Atlantic coast.</br>
+	Plus, there are 4 millions Muslims, so, they represent the second sisterhood in France. Sometimes, relationships between the Catholics and the Muslims can be tense.</br>
+	Finally, 600 000 Jewish live in France, even 50% of them live in Paris.</br>
+	</p>
+	<h2>Gastronomy</h2>
+	<p>
+	French cuisine has a very good reputation abroad. Indeed, it’s well-known thanks to three products:Vin (Wine): France produce more than 63 million hectoliters per year (1st producer). We advise you wine from:</br></br>
+
+	Bordeaux (Médoc, Graves, Saint-Emilion, Pomerol, Sauterne,Barzac, Monbazillac)</br>
+	Bourgogne (Chablis, Côte de nuit, Côte de Beaune,Beaujaulais)</br>
+	Champagne</br>
+	Muscade</br></br>
+
+	A glass of wine is very appreciated for each meal, even it’s for business or with your family.</br>
+
+	Fromage (Cheese): France produces 365 types of cheese which come from goat, sheep and cow’s milk. Cheese is eaten at breakfast, lunch or dinner.</br>
+
+	Baguette (Bread): There are very different kinds of bread. If you want to discover them, just go to the bakery or boulangerie. French people eat bread 167g each day and 3.48 million of tones are produce each year. Consequently, a meal without bread for a French person isn’t a real one!</br>
+
+	Moreover, you can savor several specialties, depending on which region of France you are. You can find seafood on the coast, cheese and sausages near mountains, Dutch cuisine on the North-East etc. That’s why, during your stay in France, travel for discovering the real France (:</br>
+	French culture can be seen thanks to architecture, furniture, museums…</br>
+	<p>
+	<h2>Newspaper</h2>
+	<p>
+	Press is very diversify in France, you’ll find a lot of newspaper and magazines according to your hobbies. Le Monde, Le Figaro, Libération, Les Echos, Le canard Enchaîné…
+	</p>
+
+	<h2>Here are some cultural customs and habits that French people have.</h2>
+	<p>
+	<quote>Don’t be astonished ;)</quote></br>
+	“La Bise” and “Serrer la main”</br>
+	What is it?</br>
+	In France, “La bise” is a way to say hello or bye to someone, even he or she is just an acquaintance. It’s use to show an intimate and close relationship: (new) friends, family etc.</br>
+	If you’re a girl, you can do it to girls and boys and if you’re a boy, just do it to girls. Boys between them prefer to do a hand shake.“Se serrer la main” or so-called the “hand shake” is also a way to greeting people. Indeed, it’s more use in formal context to show your respect. For example, to a superior during a job interview, your superior at work or to a colleague.</br></br>
+
+	<quote>How to do it?</quote></br>
+	For “La bise”, offer your right cheek and touch the other’s right one, then offer your left cheek and touch the other’s left one.</br>
+	“L’eau du robinet” (tap water)</br>
+	It might be odd for some of you, who come from Asia etc… But you can drink water from the tape water!Consequently:</br>
+	You don’t waste your money by buying bottle of water</br>
+	You don’t need to carry heavy bottles from the supermarket to your place</br></br>
+
+	<quote>The “Métro” and “RER”</quote></br>
+	Have you already used the subway to go to Paris or anywhere else? If the answer is yes, you may notice that on escalators, people who don’t want to walk stand on the right, and who are in a hurry walk on the left side.</br>
+	Remember that rush-hours are in the morning (between 7.00 a.m and 9.30 am) and in the late of afternoon (6.00 pm and 8.30 pm).</br></br>
+	<quote>“Aller prendre un verre” (have a drink)</quote></br>
+	In France, many people don’t come back home directly after working. That’s why, they like to drink a coffee at a café or a beer/cocktail at a bar to chat with their friends. It’s also very common when they have a break to do that, it’s called “La pause café”.</br>
+	“Nous ne sommes jamais contents” (strike)</br>
+	French people are very famous for demonstrations. Don’t panic, it’s just a way to show our dissatisfaction! Moreover, you can see that French people seem to be grumpy all day long and not friendly and the first meet. But actually, we are very welcoming.</br></br>
+	<quote>Taboos and don’t do</quote></br>
+	French people don’t like to talk about money (incomes, etc.), that’s why they don’t show off.</br>
+	Never ask how old a lady is.</br>
+	Speaking loudly in a public space isn’t well seeing. Remember that people don’t want to know your life.</br>
+	It’s on your own appreciation to give tips in restaurants or not.</br>
+	</p>
+	
+	</article>
+	
+	<article class="a2">
+	<h1 id="evry">Évry and nearby</h1>
+	 <img class="subarticle_img" src="images/evry.jpg"></br></br>
+	 <p>
+	 Evry, the capital of the Essonne Region, has for many years focused on cutting-edge technologies: Génopole, Arianespace, CNES, Snecma moteurs and many other public and private laboratories, universities, schools and innovative companies are located in the area.</br>
+	 The campus is set at the heart of a culturally dynamic town with many green open spaces, only 30 minutes away from Paris.</br>
+	 •220 hectares of green open areas</br>
+	 •6 parks</br>
+	 •Walks along the banks of the River Seine</br>
+	 •1 theater</br>
+	 •National Music Conservatory</br>
+	 •Access by RER D or A6 motorway</br></br>
+	 Useful links:</br>
+	<a href="www.evry.fr">www.evry.fr</a></br>
+	<a href="www.tourisme-essonne.com">www.tourisme-essonne.com</a></br></br>
+
+	CNES, Snecma Motors, etc. Cultural life is particularly dynamic around Évry, with the Agora Theater and the National Music Conservatory. It is also one of the greenest towns in France, with 220 hectares of parkland. The town is very accessible, located 30 minutes from Paris on the RER D line or the A6 highway</br>
+	</p>
+	</article>
+	
+	<article class="a1">
+	<h1 id="paris">Visit Paris per District</h1>
+	<img class="subarticle_img" src="images/plan_paris.png"></br></br>
+	<p>
+	Here, you got the description of the main place (monument, museum…) of Paris that you should visit during your study with us. There are 20 districts in Paris that is why there is not the description of all places. Paris is a wonderful old city with a lot of secretive charming places.</br>
+
+	Here is a <a src="https://drive.google.com/folderview?id=0B8RMr7q9ac17fmFna2p6MktNaWpkZGwwTklVcktCUThydEhQSDg4N3h0NVEzVEdlc2tXS1E&usp=sharing">link</a> with more details on some monuments.</br></br>
+	</p>
+	<h2>The 1st district:</h2>
+	<p>
+	The “Palais Royal” and its garden: this palace was built in 1628 by the Cardinal Richelieu. When he died in 1648, he left it to the future king of France: Louis XIV.</br>
+
+	The “Halles”: there are a lot of shops! This district was called by Emile Zola the “belly of Paris” (“Ventre de Paris”) because it was the marketplace of Paris until 1970. The marketplace was transferred to Rungis. The international market of Rungis is now the biggest Marketplace of fresh product in the world. There are in Halles a lot of gardens and a forum with shops. It was inaugurated in 1879 by the mayor of Paris, Jacques Chirac.</br>
+
+	You can also visit a lot of churches such as the “Sainte-Chapelle”, the church “Saint-Roch”, the church “Saint-Eustache and so on! There is also another famous place such as the “Palais de Justice”, the “Place Vendôme” to the “Place de la Concorde” and of course the “Samaritaine”!</br></br>
+
+	</p>
+	<h2>The 3rd district:</h2>
+	<p>
+	The Museum Carnavalet was built by Nicolas Dupuis in the 16th century. Paris bought it to Madam de Sévigné in 1886. Nowadays, you can find all the history of Paris in the museum since the Prehistory.</br>
+
+	The Museum of Picasso or Hotel Salé: this hotel was built in the 17th century for Pierre de Fontenay who collected taxes on salt (that’s why the name of the hotel “salé” or “salt” in english). Now, the museum has got more than 3500 works of Pablo Picasso left by his last wife Jacqueline Picasso.</br></br>
+	</p>
+
+	<h2>The 4th district:</h2>
+	<p>
+	Détail du “plan de Paris” de Melchior Tavernier vers 1630</br>
+
+	Paris or Lucrèce (it first name) has it origin at the “Île de la Cité”. During the Antiquity, Parisis Gallic lived there before being expelled by Romans of Jules Cesar in 52 AC. This Isle has been a hub for business in the Seine.</br>
+	 In its right, there is the “Île saint-Louis”. It is an old city exclusively built to live there. That is why its architecture is really old and romantic. A lot of foreign billionaires and celebrities want to live there.</br>
+
+	The “Hôtel de Ville” or the City hall of Paris was built until 1533 and finished in 1628. It was renewed many times. There is a skating rink every year from December to March. The entrance is free but the location of skates costs 5 Euros.</br></br>
+
+	</p>
+	<h2>The 5th district:</h2>
+	<p>
+	The Pantheon: in 1744, Louis XV very ill promised that if he would recover, he will transform the Abbey Sainte-Geneviève to a pantheon. In 1791 during the French revolution, the church closed to open a crypt for men who contributed to the freedom of France. Now, there are many famous personnalites such as : Emile Zola, Jean-Jacques Rousseau, Voltaire, Jean Jaurès, Jean Moulin, Monnet, Pierre and Marie Curie or André Malraux. The Pantheon was designed by Soufflot in a neo-classical style.</br></br>
+	</p>
+
+	<h2>The 7th district:</h2>
+	<p>
+	The Invalides: in 1670, Louis XIV decided to build a shelter for disabled soldiers or old soldiers. “Invalide” means “disabled” in French. The architect Libéral Bruant designed it. In 1674, the first disabled soldiers could come. There was a hospital which is now a part of the museum. Many churches were built. Now, the Hôtel des Invalides is a museum about army.</br></br>
+	</p>
+	<h2>The 8th district:</h2>
+	<p>
+	Obelisk ParisNear the Invalides and down the Avenue des Champs-Elysée, there is the Place de la Concorde with the Obelisk. The Obelisk of Louxor (3,300 year old, 22.86 meters long and 227 tones) was offered by Egypt to France in 1836 to thank Champollion who translated hieroglyphs. That is a sundial.</br></br>
+
+	Many Universal Expositions took place in Paris.</br>
+	In 1900, two wonderful palaces were built:</br>
+	•The Grand Palais which is landmarks dedicated to the glory of French art and aims to welcome artistic events.</br>
+	•And the Petit Palais.</br></br>
+
+
+	 In 1937, many palaces were also built:</br>
+	•The Palais de Tokyo for modern and contemporary art.</br>
+	•And the Palais de Chaillot.</br>
+
+	The Avenue des Champs-Elysées is considered as the most beautiful avenue in the world. The “Champs Elysée” was a place in hell where pure souls were in the Greco mythology. The Arc de Triomphe is a monument built in 1808 by Napoleon after the victory of the battle in Austerlitz.</br></br>
+	</p>
+	</article>
+</div>
+</body>
+
+<footer>
+
+	<div class="foot">
+	<a href=""><img class="logo"src="images/welcom'_foot.png"></a>
+	<p>
+	The association which is in charge of international students from Télécom Business School and Télécom SudParis.
+	</p>
+	</div>
+	<div class="foot">
+	<h2>Contact</h2>
+	<p>
+		9 rue Charles Fourier, 91000 Evry</br>
+		contact@welcom-evry.com
+	</p>
+	</div>
+</footer>
+	
+</html>

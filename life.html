@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Welcom</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<script>
+var orientationChangeEv = function(){
+  var winW = window.innerWidth, w, fontSize;
+  //保证window内部的宽度在320-640之间，最小为320，最大为640
+  w = (winW <= 750) ? 1000 : ((winW >= 1366) ? 1366 : winW);
+  //根据窗口的大调整字体的大小
+  fontSize = 10 * (w / 750); 
+  document.documentElement.style.fontSize = fontSize + 'px';
+};
+//绑定window的resize事件
+window.addEventListener('resize',orientationChangeEv);
+//初始时，执行一次
+setTimeout(orientationChangeEv, 0);
+</script>
+	<header>
+		<div id="top">
+			<ul>
+				<li><a href=""><img class="visible"src="images/mail.png"/><img class="hidden"src="images/mail_hid.png"/></a></li>
+				<li><a href="https://fr-fr.facebook.com/welcom.evry"><img class="visible" src="images/facebook_black.png"/><img class="hidden"src="images/facebook_hid.png"/></a></li>
+				<li><a href=""><img class="visible" src="images/twitter.png"/><img class="hidden"src="images/twitter_hid.png"/></a></li>
+				<li><a href="https://www.youtube.com/user/TelecomEM"><img class="visible" src="images/youtube.png"/><img class="hidden"src="images/youtube_hid.png"/></a></li>
+			</ul>
+		</div>
+		
+		<div id="soustop">
+			<div id="banniere">
+				<a href="./index.html"><img src="images/banner_welcom'.png"/></a>
+			</div>
+			
+			<nav class="mainmenu">
+			<ul>
+				<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+			</ul>
+			</nav>
+			<nav class="smallmenu">
+			<li>
+				<a herf="#"><img src="images/menu.png"/></a>
+				<ul>
+					<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+				</ul>
+			</li>
+			</nav>
+		</div>
+	</header>
+
+<body>
+	<div id="mainpage">
+    <div id="leftmenu">
+            <div id="leftmenu_contenu">
+               <h2><a href="">EASY LIFE</a></h1>
+                  <div class="left">
+                       <ul>
+                            <li><a href="#bank">Bank account</a></li>
+                            <li><a href="#legislation" >Legislation</a></li>
+                            <li><a href="#phone">Using phones</a></li>
+							<li><a href="#caf">CAF</a></li>
+							<li><a href="#path">Getting to the campus</a></li>
+                        </ul>
+                  </div>
+            </div>
+    </div>
+	<article class="a1">
+	<h1 id="bank">Bank account</h1>
+		<p>Managing your money in a foreign country is not an easy thing, that is why Welcom is here to give you advice.</p>
+		
+		<h2>How to open a bank account in France?</h2>
+		<p>To open a bank account, you need to bring these documents to the banker:</br></br>
+			A proof of identity (ID, passport)</br>
+			A proof of residence (please contact the Maisel)</br>
+			Société générale, BNP and LCL are the three main banks in Evry.</br>
+			Notice that Société général will also be on duty on the campus (in the forum) every Thursday from 10am to 1pm throughout all the school year except for holidays and bank holidays.</br>
+		</p>
+		
+		<h2>Checks</h2>
+		<p>
+			Checks in France are often used, especially to have a mobile phone or rent an apartment.</br>
+			Your credit card (about 30€ per year) and your checkbook (free) will arrive one week after your account opening.</br>
+			Your code number will be sent in your Maisel address, so be careful about your information.</br>
+			Do not hesitate to give your mobile phone number to your bank in case they need some more information. In case of loss or theft of the credit card or check book, you must immediately stop the card or check book (“faire opposition”) by calling the phone number your bank gave you.</br>
+		</p>
+		
+		<h2>Travelers Checks</h2>
+		<p>Traveler's checks are NOT easy to cash in France, because you must go to a bank and banking hours are not very practical.</br>
+		You can instead use an international credit card such as Visa or MasterCard. American Express is recognized as well but is far less easily accepted.</br>
+		As well, if your credit card has a pin code, almost all ATMs will allow you to withdraw Euros using these credit cards. But be sure to check with your bank concerning the charges and exchange rate applied when using the card in France in shops AND withdrawing money from ATMs.</br>
+		</p>
+		
+		<h2>Euro bills</h2>
+		<p>If you exchange money before you come, remember to ask for small denomination bank notes /euro bills as it is extremely difficult to get stores and even bank accept a 200 or more euro bill.</br>
+		Be aware that there is a Société Générale ATM on the campus.</br>
+		</p>
+		
+		<h2>Lost with Euros?</h2>
+		<p>
+		Here is the website to convert your money in Euros.
+		<a href="http://www.xe.com">http://www.xe.com</a>
+		</p>
+		<h2>Others spendings</h2>
+		<p>
+		During your journey, you will spend a lot of money at your arrival:</br></br>
+
+		Your rent (which depends on your Maisel room).</br>
+
+		Note that you can benefit from the CAF which pays you a part of your rent.</br>
+
+		Maisel membership cost (around 150€ non-refund)</br>
+
+		Maisel deposit (arounf 450€)</br>
+
+		House insurance (around 40€ for one year, please contact school life office)</br>
+
+		Food</br>
+
+		Dishes (5 €)</br>
+
+		Public transport: count 70€/month for unlimited trips with the Imagin’r Card</br>
+
+		Others: clothes, associations, school stationery…</br>
+
+		Have a look at this webpage so you will know the average price for average product in France.</br>
+		</p>
+		
+		<h2>Need help?</h2>
+		<p>
+		If you have some personal, financial or social difficulties, a social worker can inform you, give advices or direct you the competent services.</br>
+		She is here every Tuesday; you can make an appointment in the infirmary office.</br>
+		<blockquote>
+		Marie-Sophie Sémété</br>
+		Social Worker</br>
+		46 rue Barrault</br>
+		75634 Paris Cedex 13</br>
+		Mailail : Marie-sophie.semete@institut-telecom.fr</br>
+		Phone number (Tuesday): 4374 (from the campus, it's free) or 01 45 81 73 86</br>
+		</blockquote>
+		</p>
+	</article>
+	
+	<article class="a2">
+	
+	<h1 id="legislation">Legislation</h1>
+	
+	<h2>Formalities and residence permit</h2>
+
+	There are many administrative procedures you must do when you arrive in France:</br></br>
+	Enroll in your school</br>
+	Open a bank account</br>
+	Subscribe to an insurance</br>
+	Validate your visa or obtain a residence permit</br>
+	
+	<h2>Visa and residence permit</h2>
+	This chapter is dedicated to the visa and the residence permit.</br>
+	<h2>I. EUROPEAN STUDENTS</h2>
+
+	You are an EA citizen (ie from 1 of the 27 European Union countries, Liechtenstein, Norway or Iceland) or from Switzerland: you don’t need a resident’s permit in order to study in France, just your identity card or a valid passport and the European Health Insurance Card.</br>
+	<h2>II. NON-EUROPEAN STUDENTS</h2>
+
+	To study in France, non-European students must hold a long stay visa called « VLS-TS ». This visa is valid for 6 months up to 1 year and must be validated when you arrive in France.</br>
+
+	Students who are already in France and hold a residence permit must renew it two months before the end of the permit.</br>
+
+	If you are Algerian, you are entitled to a long stay 3-month visa. On you arrival, you must apply for the residence permit.</br>
+
+	For the procedure, please refer to the second part “Obtain or renew the residence permit”.</br>
+
+	If you are Romanian or Bulgarian and do not hold a Master 2 degree, you need a residence permit in case you would like to work in France. To obtain the residence permit, please follow the second part “Obtain or renew the residence permit”.</br>
+
+	<h2>a. Validating the VLS-TS</h2>
+
+	When you got back your passport with the visa, the French Authorities also gave you a special stamped form: Demande d’Attestation OFII.</br>
+
+	Upon your arrival in France, this form has to be filled out with your definitive postal address (MAISEL’s address) and your contact details (email and phone) and signed.</br>
+
+	Once you have filled out and signed the attestation, you should give it to the person in charge of foreign student affairs at TSP or TEM with:</br></br>
+	<ul>
+	<li>A copy of your passport</li>
+	<li>A copy of the visa</li>
+	<li>A copy of the page with the date of entry in France (stamp from the customs)</li>
+	</ul>
+	
+	Complete applications will be sent to the OFII center based in Créteil, then, one week later, you will receive an acknowledgement.</br>
+
+	After two weeks, you will receive another letter from OFII summoning you for a medical examination. The mail is composed of three pages:</br></br>
+	First page: date and time of the appointment and documents you have to bring with you</br>
+	Second page: how to reach the OFII center</br>
+	Third page: payment of the tax.</br></br>
+	The tax stamp: you have to pay the fees as a stamp bearing the initials “OMI”. You can buy this stamp:</br></br>
+	Online from <a href="https://www.timbresofii.fr/">https://www.timbresofii.fr/</a>
+	In some tobacco shops</br>
+	At offices of the French tax authorities.</br>
+	At the end of the medical visit, your visa will be validated (they will stick a sort of label on your passport) and you will get a medical certificate. You don’t need a residence permit because the visa gives you the same rights, that means:</br></br>
+	You can travel</br>
+	You can complete all the administrative procedures</br>
+	You can work (part-time job 60%)</br></br>
+	<blockquote>TWO MONTHS BEFORE THE END OF THE VISA, YOU HAVE TO APPLY FOR THE RESIDENCE PERMIT.</blockquote>
+	
+	<h2>b. Applying or renewing the residence permit</h2>
+
+	You have to apply for or renew the residence permit at the Police Administrative Headquarters (Préfecture) for the area where you live 2 MONTHS before the end of your papers.</br>
+	For Evry, it is “Préfecture de l’Essonne”, a 5 minute-walk from our campus.</br>
+
+	The procedure is the same for both VLS-TS or residence permit.</br>
+
+	<strong>Step1</strong>. You print the form with the list of documents requested from the website of the Police Administrative Headquarters (Préfecture de l’Essonne): <a href="http://www.essonne.gouv.fr/sejour-etrangers/index.html">http://www.essonne.gouv.fr/sejour-etrangers/index.html</a>.</br>
+
+	DON’T PANIC! Everything is in French but if you follow carefully the instructions, it will be easy:</br></br>
+	Click on “Formulaire” in the red header</br>
+	Select your nationality and click « OK »</br>
+	“type de demande”, they ask you the topic of your request, you select “renouvellement de titre de séjour”</br>
+	They ask you…again “type de demande”, you have to give your status, you select “étudiant” (student)</br></br>
+	
+	<strong>Step2</strong>. Now, there is a long sentence written in black and a kind of violet color. This first sentence tells you to go to the “Préfecture” with your passport, the form and the materials requested.</br>
+
+	To get the form you click on “formulaire et des pieces jointes” (in violet). A form (in French) appears. The first part has to be filled in with your personal details and the second part is the list of documents you have to prepare:</br></br>
+	<ul>
+		<li> Original and copy of the passport</li>
+		<li> Original and copy of the VLS-TS and the OFII label OR original and copy of your residence permit</li>
+		<li> Copy of your transcript of records</li>
+		<li> “attestation d’assiduité”, on this letter the school certifies that you are regularly enrolled in a program and you regularly attend the courses</li>
+		<li> Evidence of financial support (scholarship, personal funds…)</li>
+		<li> Evidence of residence in Evry or in the Essonne Area</li>
+		<li> 3 photos</li>
+	</ul>
+	If you hold a VLS-TS, you add:</br></br>
+	<ul>
+		<li> Original and copy of your birth certificate in French</li>
+		<li>Original and copy of the OFII medical certificate</li>
+	</ul>
+	<blockquote>ALL THE DOCUMENTS MUST BE IN FRENCH. If you need to translate a document into French, a list of official translators is available in Dir 209.</blockquote>
+
+	<strong>Step3</strong>. To have an appointment, you return to the last page and click on “prendre rendez-vous” (second sentence).</br>
+	You will thus open a page with the title “ACCUEIL”, you select the first proposition “EVRY: Prise de Rendez-vous pour les ressortissants étrangers titulaires d’un titre avec la mention “étudiant”:</br></br>
+	<ul>
+		<li>MODULE DE RESERVATION DE LA PREFECTURE : it is a short presentation of the system with the legal mentions and condition of confirmation. You have to tick the box at the bottom of the page to accept the conditions and click on “Effectuer une demande de reservation”</li>
+		<li>“Choix de la nature de réservation” : you select the first proposition and click on « Etape suivante » and you chose a day and time for your appointment</li>
+	</ul>
+	<strong>You may have 30 minutes to confirm the appointment from your mailbox.</strong>
+
+	On the appointed day, you go to the “Préfecture” with your documents and the mail confirming the appointment. Once your complete application is accepted, you will be issued with a receipt that serves as an interim residence permit.</br>
+	You will receive your annual residence permit within 2 to 3 weeks.</br>
+
+	If you have any question, you can contact:</br></br>
+
+	<strong>Télécom SudParis</strong></br>
+	Laura LANDES</br>
+	E-mail: <a href="mailto:Laura.Landes@telecom-sudparis.eu">Laura.Landes@telecom-sudparis.eu</a></br>
+	Phone : 42 26 (internal) – 01 60 76 42 26 (external)</br>
+	Room : DIR 209</br></br>
+
+	<strong>Télécom Ecole de Management</strong></br>
+	Maryse COMBANAIRE</br>
+	E-mail : <a href="mailto:maryse.combanaire@telecom-em.eu">maryse.combanaire@telecom-em.eu</a></br>
+	Phone : 40 21 (internal) – 01 60 76 40 21 (external)</br>
+	Room: DIR 113</br>
+
+
+	<h2>Social security</h2>
+	Student social security is compulsory for all students from 16-28 years old.</br>
+
+	LMDE or SMEREP are organizations that specialize in the student regime, you should choose one of these social security centers, and indicate it on the 2nd page of your registration form:</br></br>
+	<ul>
+		<li>Centre 601: La Mutuelle Des Etudiants LMDE</li>
+		<li>Centre 617: SMEREP.</li>
+	</ul>
+	Both organizations provide voluntary health insurance solutions as well. Should you need a more specific voluntary health insurance, you should contact:</br></br>
+	<ul>
+		<li>The “Vie Scolaire” service</li>
+		<li>Or send a letter with all the documents included with your registration form</li>
+		<li>Or with the LMDE / SMEREP staff, on the first day of school.</li>
+	</ul>
+	Along with your affiliation request, you should join a check in keeping with the offer you have chosen, made out to La Mutuelle des Etudiants or SMEREP. The checks will be cashed one week later at the earliest.</br>
+
+	Mutual Insurance Price List 2010-2011:</br>
+	
+	<blockquote style="float: right; width: 47%; paddin:1rem">
+	<img src="images/lmde.png" style="width:10rem"/></br>
+	Major problems LMDE: 60 € per year</br>
+	Intermediate care: 90 € par year</br>
+	All care: 201 € par year</br>
+	Packages: 330 € per year</br>
+	Optimum packages LMDE: 564 € per year</br>
+	Plus LMDE: 40 €</br>
+	</blockquote>
+	
+	<blockquote style="float: left; width: 47%">
+	<img src="images/smerep.png" style="width:10rem" /></br>
+	Indispensable / Essential: 92 € per year</br>
+	Médiane / Median: 240 €</br>
+	Optimale / Optimum: 528 € per year</br>
+	Pack SMEREP: 27 € per year</br>
+	Forfait “Vivre sa vie” / Package “live your</br>
+	life”: 30 € per year</br>
+	Forfait “Santé bien-être” / Package</br>
+	“Health and wellness”: 42 € per year</br>
+	</blockquote>
+	<p>
+	</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+	The LMDE and SMEREP staff will be on the campus every Tuesday from noon to 2 P.M. and from September to October, then once a month.</br></br>
+
+	The LMDE staff will be onsite on Mondays and Tuesdays, from 9:30 A.M. to 1:00 P.M. and 2:00 P.M. to 5:30 P.M., and Wednesdays, from 9:30 A.M. to 1:00 P.M., in Evry University, Maupertuis building, ground floor.</br></br>
+
+	The SMEREP staff will be in Evry University(room BW 19, from Monday until Friday, 9:00 A.M.– 4:45 P.M.).</br>
+	</p>
+
+	Students who are more than 28 years old should affiliate with a private voluntary health insurance.</br>
+
+	Suggestions:</br></br>
+	ACS / Students aid:</br></br>
+	<ul>
+		<li>Package A 309 € per year</li>
+		<li>Package B 500 € per year</li>
+		<li>Package C 712 € per year</li>
+	</ul>
+	You may register online:</br>
+	<a href="http://www.assistance-etudiants.com/">http://www.assistance-etudiants.com</a></br>
+	<h2>Healthcare reimbursement</h2>
+	Procedures that need to be done in france:</br>
+
+	A form should be filled by your nominated treating doctor, and returned to the Social Security.</br>
+
+	You may download the special n°12485 Cerfa form (Déclaration de choix du médecin traitant) here: <a href="http://www.ameli.fr">www.ameli.fr</a>, or get it from the	nurse. You should fill out the form with the doctor on the first occasion (he or she doesn’t have to be the campus doctor). Don’t make unnecessary appointments; you should wait until you have a good reason to visit the doctor.</br>
+
+	A duly filled out form should be sent to your social security organism (LMDE or SMEREP).</br>
+	If possible, you should always visit your nominated treating doctor, should the need arise, he’ll refer you to specialized doctors.
+	Besides emergencies or evidence-based diseases, if you don’t choose a nominated treating doctor, or if you visit another doctor,
+	the reimbursement rate will be lower (16 € instead of 19 €).</br>
+
+	</div>
+	</article>	
+	<article class="a1">
+	<h1 id="phone">Information about using phones in France</h1>
+	We know that you are impatient to call your family and friends to tell that you landed in Paris and more precisely in Evry. Here you have some advices.</br>
+	<h2>The main companies are:</h2>
+	SFR, <a href="http://www.sfr.fr">http://www.sfr.fr</a></br>
+	Orange, <a href="http://www.orange.fr">www.orange.fr</a></br>
+	Bouygues Telecom, <a href="http://www.bouyguestelecom.fr">www.bouyguestelecom.fr</a></br>
+	The others: Free Mobile, Virgin Mobile, Nrj Mobile, Lebara, Sosh, B&amp;You, Universal Mobile, La Poste mobile- Have a look on Internet for more detailed information.</br>
+	<h2>There are three types of mobile subscriptions:</h2>
+	<strong>Prepaid card:</strong> you buy a Sim card and you top up your mobile phone when you don’t have credits anymore. The inconvenient is that the companies don’t offer good deals.</br>
+	<strong>Lock subscription:</strong> the best for those who want to call in France and also worldwide without paying any extras charges. The company takes the money from your bank account every month. (Need a bank account in France: go on the ). When you leave France, you call to stop the subscription.</br>
+	<strong>Normal subscription:</strong> if you know that you just call and send SMS/MMS in France, it’s the best choice because it’s cheaper but if you call worldwide, the company is going to take more money in your bank account than the subscription price. (need a bank account in France)</br>
+
+	<h2>What’s on the market?</h2>
+	<strong>Prepaid card:</strong></br></br>
+	If you want to call and send SMS in France and worldwide, the best offer is LEBARA MOBILE (you can check the price list according to the country you are calling on the website <a href="http://www.lebara.fr/prepaye/tarifs">http://www.lebara.fr/prepaye/tarifs</a>)</br>
+	There is no unlimited SMS or Internet in this prepaid card. You just need to go to the “TABAC” (cigar store) to top up your mobile.</br></br>
+	<strong>Lock subscription:</strong> (without engagement, need a bank account in France)</br></br>
+	<img src="images/forfait-lock.png" /></br>
+	<strong>Normal subscription:</strong> (without engagement, need a bank account in France)</br></br>
+	<img src="images/normal-suscription.png" /></br>
+	You can compare prices here <a href="http://www.comparatel.fr/cartes-sim-seules.html">http://www.comparatel.fr/cartes-sim-seules.html</a></br>
+
+	For more information concerning phones' subcription emailed: Celine.Lor_lam_kyheng@telecom-em.eu</a></br>
+	</article>
+	
+	<article class="a2">
+	<h1 id="caf">CAF</h1>
+	Most lodgers, foreigners or not, can obtain financial help from the CAF (Caisse d’Allocations Familiales) which is meant to help them paying their rent.</br>
+	<h2>Requirements :</h2>
+	As you can imagine, you’ll need a couple of files :</br>
+	- a rental agreement (it must be at your name, and not at the name of your parents)</br>
+	- this apartment must be your principal residence</br>
+	- your financial resources must be under a certain ceiling</br>
+	- resident permit</br>
+	<h2>IMPORTANT:</h2>
+	Your resident permit must be valid for at least 4 months.</br>
+	Please do not wait to receive this resident permit to send your form, for the process might take more than three months ! Just send an incomplete form to the CAF. You’ll send a copy of the aforementioned resident permit as soon as you’ll get it.</br>
+	First step</br>
+	To benefit from APL or ALS, you should submit a form as soon as you’ll have found accommodation. You can get this form from the MAISEL staff (see Maisel Website).</br>
+	<h2>Indicative prices :</h2>
+	For a monthly rent from 373 to 532 euros.</br>
+	You may benefit from accommodation allowance (ALS or APL).</br>
+	— ALS : from 96,91 € up to 112,66 €</br>
+	— APL : from 156,93 € up to 248,67 €</br>
+
+	These figures come from the year 2012 and may be different for the year 2013</br>
+	How to contact the CAF of Evry</br>
+	<blockquote>
+	2 impasse du télégraphe</br>
+	91013 Evry Cedex</br>
+	Tel : 0 820 25 91 10</br>
+	<a href="www.caf.fr">CAF Website</a>
+	</blockquote>
+	</article>
+	<article class="a1">
+	 <h1 id="path">Getting to the campus</h1>
+	<p>
+	If you decide to come by car or train, here are some tips to avoid getting lost and a guide to get to the school: <a href="http://www.welcom-evry.com/wp-content/uploads/How-To-Get-To-School-From-Train-Station.pdf">How To Get To School From Train Station.</a></br></br>
+
+	<h2>Coming by car</h2>
+
+	<b>From Paris, by the A6 motorway</b></br>
+	 Follow the A6 motorway (20 km) and take the Evry Centre exit.</br>
+	 Drive past the CNES, then straight across boulevard de l’Europe (you should drive past a Shell gas station and Evry 2 mall). Right at the roundabout, drive past the préfecture and straight across boulevard de France. 500 m farther, there are traffic lights, turn left after the Total gas station, then follow the road signs “Institut National des Télécommunications or INT”.</br></br>
+
+	<b>From the East:</b></br>
+	 Follow the A4 motorway and take the A86 Maison-Alfort exit towards Lyon Evry, then pick up the A6.</br></br>
+
+	<b>By the Nationale 7 highway:</b></br>
+	 Drive towards Evry and take the Bras de Fer/ Les Epinettes highway.</br></br>
+
+	<b>If you come from the South:</b></br>
+	 Turn left when you have reached the traffic lights, and straight across boulevard des Coquibus. Turn right if you arrive from the North, turn left when you have reached the traffic lights, rue Charles Fourier.</br>
+	 By Francilienne highway (West):</br>
+	 Follow the Francilienne highway (20 km) and take the Evry Centre exit.</br>
+	 When you have reached place des Grands Hommes, you’ll see a cathedral on your right and Evry-Courcouronnes train station on your left. Drive straight across boulevard des Coquibus, then turn left after the Total gas station (rue Charles Fourier).</br>
+	 By Francilienne highway (East):</br>
+	 Follow the Francilienne highway and take the Evry Centre exit.</br>
+	 When you have reached the Nationale 7 highway, take the Bras de Fer / Les Epinettes exit. At the next traffic lights turn left, then straight across the next traffic lights, and turn right rue Charles Fourier.</br>
+	 If you have any question, you may need to have a look at <a href="https://www.google.fr/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=8386470396045891867&q=T%C3%A9l%C3%A9com+Ecole+de+Management">Google maps!</a> ;)</br></br>
+
+
+	<h2>Coming from Paris</h2>
+
+	You just went to Paris shopping at Champs Élysées, hanging out in the Marais and having a crepe in front of Notre-Dame…but know you don’t remember how to get back home?</br>
+	 Here are some essentials tips you should know before!</br></br>
+
+	To go from Paris to the campus, you need to take an RER, the green one: line D.</br>
+	 A RER is just a train that goes between suburbs. It only takes you 45 minutes to get to the center of Paris.Have a look at Wikipedia if you want more information!</br>
+	 You have to take the RER either at metro/RER station CHATELET, GARE du NORD or GARE DE LYON. There, you have to find line RER D direction:</br>
+	•Corbeil</br>
+	•Melun</br>
+	•Malesherbes</br></br>
+
+	Every train in this direction and with a “P” in the third letter will take you to the campus, for example: riPe, biPe, ziPe, tiPe, roPo, zoPo, etc.</br>
+	 You will learn also that each letter means something, in this case, the letter “P” means that the train will pass through the branch of Evry Courcouronnes / Bras de Fer, where our stop is!</br>
+	 For the timetable, you can take one of the brochures in the train station or look in “Fiches Horaires” or on RATP</br>
+	 To get to the campus you have to stop at Evry Courcouronnes.</br></br>
+
+	 
+
+	<h2>Coming by plane</h2>
+
+	Most of the International Students decide to come to Paris by plane. There are 3 differents airports in Paris: CDG, Orly and Beauvais.</br></br>
+
+
+	Welcom organises in September and January a pickup service for 30€. However sometimes, this service cannot not be provided. Here is some information on how to reach our campus from one of the 3 airports. From each of these airports, different transportations are available that imply diverse costs.</br></br>
+
+	<b>Charles de Gaulle Airport by taxi</b></br>
+
+	Taking a taxi is usually the easiest way to get to Évry with heavy suitcases but you should take into account that it implies a minimum of 150 euros.</br>
+	 If there are more than 4 of you, each extra person will be charged 20 euros and there is an extra fee if you have more than 6 suitcases. Charles de Gaulle Airport has 3 terminals divided into zones. Each zone has its own taxi service:</br>
+	•terminal 1 exit 20, arrival floor</br>
+	•terminal 2A & 2C exit 6</br>
+	•terminal 2B & 2D exit 7</br>
+	•terminal 2E & 2F exit 1</br></br>
+
+	<b>Charles de Gaulles Airport by RER</b></br>
+
+	You will need to take the RER B to Châtelet and then the RER D from Châtelet to Évry</br>
+	 Duration: Two hours</br>
+	 Price: one way 18 €</br></br>
+
+	<b>Orly Airport by taxi</b></br>
+
+	Orly counts two different terminals: South and West.</br>
+	•In Orly South, taxis can be found at exit L.</br>
+	•In Orly West, taxis are at exit B.</br></br>
+
+	Orly is the nearest airport to Evry, a fare can be as cheap as 30 Euros but with traffic, luggage and number of persons, you could pay as much as 70 Euros.</br></br>
+
+	<b>Orly Airport by RER and bus</b></br>
+
+	You will need to take the RER and a bus, it will take you one hour to get to the airport:</br>
+	•Bus 285 Train from Orly Sud to Juvisy. RER D from Juvisy to <a href="http://www.ratp.fr/fr/ratp/c_20574/bus-285/">Évry Courcouronnes</a></br>
+	•Train 2,20€ (book of 10 tickets: 17,60€)</br>
+	•Bus 1,80€ (book of 10 Tickets “t+”: 12 €)</br></br>
+
+	<b>Beauvais by bus</b></br>
+
+	Beauvais is really far away from Paris so there is only one way to get from there: by bus.</br>
+
+	You have to check the timetable <a href="http://www.aeroportbeauvais.com/bus.php?lang=en">here</a></br>
+	 You can only take the bus from the airport to Porte Maillot in Paris and it usually costs 15€ per way. Then from Porte Maillot to Évry, you need to take the metro line 1 and then the RER D and stop at Evry Courcouronnes.</br></br>
+	</p>
+	</article>
+	</div>
+</body>
+
+<footer>
+
+	<div class="foot">
+	<a href=""><img class="logo"src="images/welcom'_foot.png"></a>
+	<p>
+	The association which is in charge of international students from Télécom Business School and Télécom SudParis.
+	</p>
+	</div>
+	<div class="foot">
+	<h2>Contact</h2>
+	<p>
+		9 rue Charles Fourier, 91000 Evry</br>
+		contact@welcom-evry.com
+	</p>
+	</div>
+</footer>
+	
+</html>

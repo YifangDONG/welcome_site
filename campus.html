@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Welcom</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<script>
+var orientationChangeEv = function(){
+  var winW = window.innerWidth, w, fontSize;
+  //保证window内部的宽度在320-640之间，最小为320，最大为640
+  w = (winW <= 750) ? 1000 : ((winW >= 1366) ? 1366 : winW);
+  //根据窗口的大调整字体的大小
+  fontSize = 10 * (w / 750); 
+  document.documentElement.style.fontSize = fontSize + 'px';
+};
+//绑定window的resize事件
+window.addEventListener('resize',orientationChangeEv);
+//初始时，执行一次
+setTimeout(orientationChangeEv, 0);
+</script>
+	<header>
+		<div id="top">
+			<ul>
+				<li><a href=""><img class="visible"src="images/mail.png"/><img class="hidden"src="images/mail_hid.png"/></a></li>
+				<li><a href="https://fr-fr.facebook.com/welcom.evry"><img class="visible" src="images/facebook_black.png"/><img class="hidden"src="images/facebook_hid.png"/></a></li>
+				<li><a href=""><img class="visible" src="images/twitter.png"/><img class="hidden"src="images/twitter_hid.png"/></a></li>
+				<li><a href="https://www.youtube.com/user/TelecomEM"><img class="visible" src="images/youtube.png"/><img class="hidden"src="images/youtube_hid.png"/></a></li>
+			</ul>
+		</div>
+		
+		<div id="soustop">
+			<div id="banniere">
+				<a href="./index.html"><img src="images/banner_welcom'.png"/></a>
+			</div>
+			
+			<nav class="mainmenu">
+			<ul>
+				<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+			</ul>
+			</nav>
+			<nav class="smallmenu">
+			<li>
+				<a herf="#"><img src="images/menu.png"/></a>
+				<ul>
+					<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+				</ul>
+			</li>
+			</nav>
+		</div>
+</header>
+
+<body>		
+	<div id="mainpage">
+    <div id="leftmenu">
+            <div id="leftmenu_contenu">
+               <h2><a href="">THE CAMPUS</a></h1>
+                  <div class="left">
+                       <ul>
+                            <li><a href="#associations">Associations</a></li>
+                            <li><a href="#sport" >Sport on the campus</a></li>
+                            <li><a href="#office">The Office</a></li>
+							<li><a href="#rits">RITS</a></li>
+							<li><a href="#cafeteria">La Caféteria</a></li>
+							<li><a href="#eating">Eating</a></li>
+							<li><a href="#maisel">MAISEL</a></li>
+                        </ul>
+                  </div>
+            </div>
+    </div>
+	<article class="a1">
+	 <h1 id="associations">Associations</h1>
+	<p>
+	Let’s discover some associations and many others on the website Associations it-Sud Paris !</br></br>
+
+	<img class="subarticle_img" src="images/minet-HD.png"/></br></br>
+	MiNET is the IT non-profit organization of the two schools.</br></br>
+
+	Experienced in IT? Beginner? Manager? Engineer? MiNET is here to fulfill your curiosity. It’s one of the most important non-profit organization for the students because it’s here that we manage the network of the students’ rooms, owned by the MAISEL. The MiNET staff registers the students to the network, supervises all the IT systems (servers, switches, wired network and wifi, etc).</br></br>
+
+	MiNET also solves IT problems of the students which is essential to ensure that students have access to the Internet all the time.</br></br>
+
+	Other MiNET services : TV over Internet, mailing lists for non-profit organizations, Hosting of students’ & non-profit organizations’ websites and more!</br></br>
+
+	MiNET: The IT knowledge to serve everyone!</br></br>
+
+	Come & join us!</br></br>
+	 
+	<img class="subarticle_img" src="images/absinthe.jpg"/></br></br>
+	AbsINThe is the place to meet up during the week.</br></br>
+
+	Every night, come and enjoy a beer with your friends at the school bar !</br></br>
+
+
+	<img class="subarticle_img" src="images/aiesec.png"/></br></br>
+	The World’s Largest Student Driven Organization</br></br>
+
+	AIESEC is an association which can give you a lot. If you belong to this association you can live an international experience which allows you to become professionalized.</br></br>
+
+	The mains goals of AIESEC are to create exchanges and develop the skills of its members.</br></br>
+
+	You can find internships for French students in a foreign country. You can contact companies to try to have contracts to welcome foreign students in France. You can also work in Finance, in Team Management and you can organise events on the campus.</br></br>
+
+	Finally, you can live a genuine experience with AIESEC, and leave for an internship if you wish.</br></br>
+
+
+	<img class="subarticle_img" src="images/bda-HD.png"/></br></br>
+	The BDA is the association which develops the students’ culture and creativity on the campus!</br></br>
+
+	The BDA is made up of 15 clubs from singing to painting, photography to magic or dance. This diversity allows students to bloom in the artistic activity of their choice.</br></br>
+
+	The BDA also organizes a lot of cultural events during the year: concerts, theater plays, karaokes, Burger Quizz, movies and also trips!</br></br>
+
+	The BDA is the best way to relax after class with its variety of clubs. You can also participate in all the projects during the year : party organisation, cultural trips, business acquaintances…and also “The Art week” and “Le Cabaret”.</br></br>
+	</p>
+	</article>
+
+	<article class="a2">
+	 <h1 id="sport">Sport on the campus</h1>
+	<p>
+	<img class="subarticle_img" src="images/asint.jpg"></br>
+	All of our Club Sports are completely student run under the ASINT association.  Any student is welcome to join a club and clubs are always looking for student participants!  Simply contact the person whose information is available on the <a href="https://www.facebook.com/asintartc?fref=ts">ASINT facebook page</a>. 
+	We have a <a href="http://www.asint.fr/">website</a> so you can check it for additional information about the clubs.</br></br>
+	</p>
+	</article>
+
+	<article class="a1">
+	 <h1 id="office">The Office</h1>
+	<p>
+	Our student office</br></br>
+
+	It’s our pleasure to present you the place where we work, meet new friends and help you with your issues.</br></br>
+
+	Don’t forget to <b>bring a flag</b> from your country for our freshly new office!</br></br>
+
+	The office is located inside the Foyer, in front of the entrance.</br></br>
+
+	We can go and hang out every afternoon after classes, it’s the best place to meet French people and make new friends.</br></br>
+
+	Photos soon !</br></br>
+	</p>
+	</article>
+	<article class="a2">
+	<h1 id="rits">Rits</h1>
+	<img src="images/rits.jpg"/></br>
+	Le RITS est la cantine officielle du campus.
+	<h2>Opening hours:</h2>
+	Monday to Thursday:</br>
+	Lunch from 11:30 a.m to 1:45 p.m.</br>
+	Diner from 7:00 p.m. à 9:00 p.m.</br>
+	
+	Friday: </br>
+	only for lunch from 11:30 a.m to 1:30 p.m.</br>
+
+	<h2>The badge system: </h2>
+	A badge is given to you at your arrival on the campus. It enable you to enter the campus, to have an access to practical work classes in the building B and to pay for the RITS and cafeteria. You can top up your badge with the machine which is placed in the RITS or directly at the cash desk when you pay for your meal.</br>
+
+	<h2>The point System:</h2>
+	The price for the meal is based on a 10 point system which cost 4 euros. Each dish cost a certain number of point. If you take more than 10 points, each additional point cost 0.36 euros.</br>
+	You can make your own meal with a starter (between 1 and 4 points), a main dish (between 6 and 9 points), cheese and many other dairy products (between 1 and 3 points) and dessert (between 1 and 3 points).</br>
+	The 10 points meal cost 4€ for students. It’s possible to take less than 10 points but you won’t pay less than 4€.</br>
+
+	Beverages are not included in the price of a meal. Water fountains and pitchers are available in the dining hall.</br>
+	Enjoy your meal!!</br>
+
+	BREAD</br>
+	Please limit yourselves to 1 roll per person.</br>
+
+	You can have a look at <a href="http://www.it-sudparis.eu/extranet/rainterne/docs/plaquette-rits_en.pdf">the menu</a>.
+	</article>
+
+	<article class="a1">
+	<h1 id="cafeteria">La Caféteria</h1>
+	<img src="images/Kfet.jpg" /></br>
+	The cafeteria ou Kfet' welcoms students and teachers.</br>
+
+	Monday to Thursday : 8:00 a.m. to 4:45 p.m.</br>
+
+	and Friday from 8:00 to 3:45 p.m.</br>
+
+	Pour voir <a href="http://www.it-sudparis.eu/extranet/rainterne/docs/plaquette-rits_en.pdf">les prix et les menus</a><sup>[PDF]</sup>. (Prices and menus)
+	</article>
+	
+	<article class="a2">
+	<h1 id="eating">Where to eat when the Rits and the Kfet are closed?</h1>
+	When the Rits and the Kfet are closed, students can eat in the Maisel’s kitchens, at the campus’ bar or go out to eat.</br>
+
+	<h2>The MAISEL's kitchens</h2>
+	There is one kitchen by building. Each kitchen is totally fitted (hot plates, oven, microwave...) When you eat in MAISEL's kitchen, you meet a lot of students.</br>
+
+	Il y a une cuisine par bâtiment et elles sont toutes complètement équipée (plaques électriques, four, micro ondes...). Diner dans les cuisines te permettra de rencontrer les autres étudiants de ton bâtiment.</br>
+
+	Welcom rents dishes to foreign students if you ask for, but hurry up, there won't be enough for everyone !</br>
+
+	<h2>BDE's partners</h2>
+	Thanks to BDE, Telecom has partnerships with :</br></br>
+	Pizza House (7/7 from 10 am to 10/30 pm - 09 81 68 00 23) : cheap shish kebab :</br>
+	Kebab + French fries = 3€10 all week middays and evenings.</br>
+	Kebab + French fries + drink = 3€80 from Thursday to Sunday, middays and evenings.</br></br>
+	
+	Domino’s pizzas (01 64 97 09 80 ; <a href="http://www.dominos.fr/">www.dominos.fr</a>) :</br>
+	For each pizza bought the second is free for Telecom’s students.</br>
+	Thursdays and Saturdays : for each pizza bought, the second AND THE THIRD are free !</br>
+	You can see the all pizzas on their website !</br>
+	</article>
+	
+	<article class="a1">
+	<h1 id="maisel">MAISEL</h1>
+	The word MAISEL stands for MAISon des ÉLèves. The Maisel is the Housing Office for TELECOM Business School (TEM) and TELECOM SudParis Engineering School (TSP)The “Maisel” is a non profit association which offers housing, both on-campus or within walking distance, to students of both schools.</br>
+	<h2>Things to know:</h2>
+	There are 6 buildings in the MAISEL, from U1 to U6:</br>
+	The U1, U2 and U4 are the ones located in the main buildings near the class rooms. The U3 is also on the campus but it is a little bit isolated because it is near the sports facilities (beach volley, gymnasium, tennis court…). The U5, which has spacious rooms, is in front of the school, you just have to cross the street. The U6, built in 2005, is on the cathedral place near the mall center Evry 2.</br>
+	Except for the U6, students don’t have kitchens in their rooms; they just have a small fridge. However, all the buildings have a well-equipped kitchen (oven, microwave, electric plate). You can also eat at the RITS.</br>
+	You can check the MAISEL room prices on this <a href="http://maisel.it-sudparis.eu/en/spip.php?article6">link</a>. Do not forget that when you rent a room, you have to give a returnable deposit (<em>450€ by check, credit card or cash</em>). Moreover, the first month, you have to pay:</br>
+	- 10€ for the MAISEL subscription</br>
+	- 15€ for bed linen (optional)</br>
+	- 80€ for administrative costs</br>
+	<h2>At your arrival:</h2>
+	- A Welcom member will welcome you at the Maisel and give you your room keys.</br>
+	- Ask Welcom or the Maisel office for bed linen (15€, optional)</br>
+	- Ask Welcom if you want a dishes kit (5€, optional)</br>
+	- Do the registration at the Maisel office: room number, deposit, date of arrival, date of departure. They will give you a paper to do your room inventory and papers for the CAF (an organisation which helps you to pay your rent).</br>
+	- If you’re done with the papers, just put them in the Maisel letter box.</br>
+	<h2>If you have any problem:</h2>
+	Technical problems (<em>room, electrical or water issue</em>), please send a mail to entretien-maisel@it-sudparis.eu in FRENCH (<em>ask a Welcom member to translate</em>)</br>
+
+	In case of emergency, you can call <a href="tel:40 71">40 71</a> from any phones on the campus or 01 60 76 40 71 with your cellphones.</br>
+
+	The MAISEL staff is here to help you. You can contact them by phone or emails if you have questions:</br></br>
+
+	<blockquote>Christine Fixot,</br>
+	Assistante de Direction</br>
+	e-mail : Christine.Fixot@it-sudparis.eu</br>
+	Téléphone : +33 (0)1 60 76 40 70</br>
+	Fax : +33 (0)1 60 76 40 72</br>
+	</blockquote>
+	More informations on the <a href="http://maisel.it-sudparis.eu/en/">Maisel website</a>.
+	</article>
+	    </div>
+</body>
+
+<footer>
+
+<div class="foot">
+<a href=""><img class="logo"src="images/welcom'_foot.png"></a>
+<p>
+The association which is in charge of international students from Télécom Business School and Télécom SudParis.
+</p>
+</div>
+<div class="foot">
+<h2>Contact</h2>
+<p>
+	9 rue Charles Fourier, 91000 Evry</br>
+	contact@welcom-evry.com
+<p/>
+</div>
+</footer>
+
+	
+</html>

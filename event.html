@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Welcom</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<script>
+var orientationChangeEv = function(){
+  var winW = window.innerWidth, w, fontSize;
+  //保证window内部的宽度在320-640之间，最小为320，最大为640
+  w = (winW <= 750) ? 1000 : ((winW >= 1366) ? 1366 : winW);
+  //根据窗口的大调整字体的大小
+  fontSize = 10 * (w / 750); 
+  document.documentElement.style.fontSize = fontSize + 'px';
+};
+//绑定window的resize事件
+window.addEventListener('resize',orientationChangeEv);
+//初始时，执行一次
+setTimeout(orientationChangeEv, 0);
+</script>
+	<header>
+		<div id="top">
+			<ul>
+				<li><a href=""><img class="visible"src="images/mail.png"/><img class="hidden"src="images/mail_hid.png"/></a></li>
+				<li><a href="https://fr-fr.facebook.com/welcom.evry"><img class="visible" src="images/facebook_black.png"/><img class="hidden"src="images/facebook_hid.png"/></a></li>
+				<li><a href=""><img class="visible" src="images/twitter.png"/><img class="hidden"src="images/twitter_hid.png"/></a></li>
+				<li><a href="https://www.youtube.com/user/TelecomEM"><img class="visible" src="images/youtube.png"/><img class="hidden"src="images/youtube_hid.png"/></a></li>
+			</ul>
+		</div>
+		
+		<div id="soustop">
+			<div id="banniere">
+				<a href="./index.html"><img src="images/banner_welcom'.png"/></a>
+			</div>
+			
+			<nav class="mainmenu">
+			<ul>
+				<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+				<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+			</ul>
+			</nav>
+			<nav class="smallmenu">
+			<li>
+				<a herf="#"><img src="images/menu.png"/></a>
+				<ul>
+					<li><a class="mainvis" href="./france.html">Living in France<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./campus.html">The campus<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./life.html">easy life<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./event.html">Events<img class="mainhid" src="images/'.png"/></a></li>
+					<li><a class="mainvis" href="./team.html">The Welcom' team<img class="mainhid" src="images/'.png"/></a></li>
+				</ul>
+			</li>
+			</nav>
+		</div>
+</header>
+
+<body>
+	<div id="mainpage">
+    <div id="leftmenu">
+            <div id="leftmenu_contenu">
+               <h2><a href="">EVENTS</a></h1>
+                  <div class="left">
+                       <ul>
+                            <li><a href="#welcom">Welcoming Ceremony</a></li>
+                            <li><a href="#cook" >Cooking activity</a></li>
+
+                        </ul>
+                  </div>
+            </div>
+    </div>
+	<article class = "a1">
+	<h1 id="welcom">Welcoming Ceremony</h1>
+	On your first day, you will attend a lecture to introduce you to the school and its facilities by the International Office Staff.</br></br>
+	<img src="images/event.jpg"></br></br>
+	Then, the Staff Members will welcome you with a typical French Buffet ;)</br></br>
+	<img src="images/drink.jpg"></br>
+	<img src="images/food.jpg"></br>
+	</article>
+	<article class = "a2">
+	<h1 id="cook">Cooking activity</h1>
+	INTegrate, the Gate project helping us will organize a cooking activity where you will be able to meet french and foreign people while cooking typical french dishes. This activity is completely free so don't hesitate to book in with the link below as the number of places are limited and the first registered will be the first admitted.</br></br>
+	<div class="button">
+		<a href="./cooking.html"><p>Register here!</p></a>
+	</div>
+	</br></br></br></br></br>
+	</article>
+	</div>
+</body>
+
+
+
+
+
+<footer>
+
+<div class="foot">
+<a href=""><img class="logo"src="images/welcom'_foot.png"></a>
+<p>
+The association which is in charge of international students from Télécom Business School and Télécom SudParis.
+</p>
+</div>
+<div class="foot">
+<h2>Contact</h2>
+<p>
+	9 rue Charles Fourier, 91000 Evry</br>
+	contact@welcom-evry.com
+<p/>
+</div>
+</footer>
+
+	
+</html>
